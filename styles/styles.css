@@ -1,8 +1,23 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 1180px;
+    max-width: 1280px;
     margin: 0 auto;
     background-color: rgb(214, 243, 243);
+    /* border: 1px solid; */
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.time{
+    width: 33%;
+}
+.dashed{
+    border-bottom: 2px dashed rgb(225, 225, 72);
+    width: 33%;
 }
 
 .header{
@@ -15,7 +30,7 @@ body{
 }
 
 .dashed{
-    width: ;
+    bo;
 }
 
 .card-div>img{
@@ -46,7 +61,7 @@ body{
     border: none;
     font-weight: 7  00;
     cursor: pointer;
-    
+    w
     background-color: rgb(214, 243, 243);
     border-radius: 8px;
     font-weight: 600;
@@ -65,4 +80,8 @@ p{
 
 .price{
     color: coral;
+}
+
+.product-image{
+    object-position: center;
 }
